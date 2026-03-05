@@ -1,4 +1,14 @@
 # SIEM Incident Investigation Lab
+## Skills Demonstrated
+
+- SIEM Investigation (Splunk)
+- Windows Event Log Analysis
+- PowerShell Security Monitoring
+- Threat Hunting
+- Detection Engineering
+- Network Reconnaissance Analysis
+
+---
 
 A hands-on cybersecurity lab simulating multiple attacker behaviors in a controlled environment and investigating them using **Splunk SIEM**.
 
@@ -187,6 +197,17 @@ Potential enhancements to this lab include:
 
 ---
 
+# MITRE ATT&CK Mapping
+
+| Scenario | Technique | MITRE ID |
+|--------|--------|--------|
+| Encoded PowerShell Execution | Command and Scripting Interpreter | T1059 |
+| Encoded PowerShell | Obfuscated Files or Information | T1027 |
+| Failed Logon Attempts | Brute Force | T1110 |
+| Privilege Escalation Attempt | Account Manipulation | T1098 |
+| Network Reconnaissance | Network Service Discovery | T1046 |
+
+---
 # Author
 
 Femi Ijatoye  
