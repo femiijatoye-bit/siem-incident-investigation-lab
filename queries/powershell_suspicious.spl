@@ -1,0 +1,4 @@
+index=main sourcetype="XmlWinEventLog:Microsoft-Windows-PowerShell/Operational"
+("EncodedCommand" OR "-EncodedCommand")
+| table _time host EventCode Message
+| sort - _time
