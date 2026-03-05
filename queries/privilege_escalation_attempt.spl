@@ -1,0 +1,4 @@
+index=main sourcetype="WinEventLog:Security"
+("net localgroup" OR "localgroup administrators" OR "net1.exe")
+| table _time host Account_Name Process_Name CommandLine Message
+| sort - _time
