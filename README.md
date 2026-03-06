@@ -150,28 +150,6 @@ This lab demonstrates practical SOC analyst skills including:
 
 ---
 
-# Repository Structure
-
-
-siem-incident-investigation-lab
-│
-├ evidence/
-│ ├ scenario-a
-│ ├ scenario-b
-│ ├ scenario-c
-│ └ scenario-d
-│
-├ queries/
-│ └ splunk_queries.md
-│
-├ powershell_commands.md
-├ timeline.md
-├ lessons-learned.md
-└ README.md
-
-
----
-
 # Key Takeaways
 
 This lab demonstrates how multiple stages of an attack can be detected using Windows event logs and SIEM analysis.
